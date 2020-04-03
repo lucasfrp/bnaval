@@ -1,0 +1,32 @@
+board:
+  dimension: 10
+  
+  float_spaces: 4
+
+  key_values:
+    0: "-" #EMPTY
+    1: "#" #SHIP
+    2: "*" #HIT
+    3: "0" #MISS
+
+  ships:
+    - size: 2
+      x: 1
+      y: 2
+      orientation: "v"
+    - size: 3
+      x: 4
+      y: 6
+      orientation: 'h'
+    - size: 4
+      x: 3
+      y: 9
+      orientation: 'h'
+
+control:
+  turn_options:
+    - "1. Hit"
+    - "9. Show board"
+    - "10. Quit"
+
+ 
